@@ -23,3 +23,12 @@ void loop() {
   Serial.println (TemC);
 
   delay(2000);
+  
+  
+  
+  
+  
+  
+  
+  
+  77ba
