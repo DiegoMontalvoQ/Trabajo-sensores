@@ -22,7 +22,7 @@ void loop() {
   
   float TemC = dht.readTemperature();
   Serial.println (TemC);
-  
+  //
 
   delay(2000);
   
