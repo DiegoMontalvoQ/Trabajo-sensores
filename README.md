@@ -16,11 +16,13 @@ void loop() {
   
    int lectura = analogRead(A0);
  int lecturaPorcentaje = map(lectura, 1023, 0, 0, 100);
+ Serial.println(lecturaPorcentaje);
    
   
   
   float TemC = dht.readTemperature();
   Serial.println (TemC);
+  
 
   delay(2000);
   
@@ -30,5 +32,4 @@ void loop() {
   
   
   
-  
-  77ba
+
